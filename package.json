@@ -6,7 +6,9 @@
     "scripts": {
         "start": "node ./build/index.js",
         "build": "rimraf ./build && tsc",
-        "dev": "nodemon"
+        "dev": "nodemon",
+        "deploy-commands": "node ./deploy-commands.js",
+        "generate-command-data": "node ./generate-command-data.js"
     },
     "keywords": [],
     "author": "",
